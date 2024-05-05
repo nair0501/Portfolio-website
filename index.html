@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" contet="width=device-width, initial-scale=1.0" />
+    <title>scroll website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./app.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container">
+        <!-- <a href="#home" id="navbar-logo">DESIGN HUB</a> -->
+        <img class="logo" src="./assets/design-hub.svg" alt="" />
+        <div class="navbar-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar-menu">
+          <li class="navbar-item">
+            <a href="#home" class="navbar-links" id="home-page">Home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#about" class="navbar-links" id="about-page">About</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#services" class="navbar-links" id="services-page"
+              >Services</a
+            >
+          </li>
+          <li class="navbar-botton">
+            <a href="#sign-up" class="botton" id="signup">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="hero" id="home">
+      <div class="hero-container">
+        <h1 class="hero-heading">
+          Graphic
+          <span>Design</span>
+        </h1>
+        <p class="hero-description">Creative and Inspiring</p>
+        <button class="main-botton"><a href="#">Explore</a></button>
+      </div>
+    </div>
+
+    <div class="main" id="about">
+      <div class="main-container">
+        <div class="main-img-container">
+          <div class="main-img-card">
+            <img src="./assets/naira2.jpg" />
+          </div>
+        </div>
+        <div class="main-content">
+          <h1>Naira Aghayan</h1>
+          <h2>Graphic Designer</h2>
+          <p>Schedule A Call To Learn About My Services</p>
+          <button class="main-botton"><a href="#">Scedule Call</a></button>
+        </div>
+      </div>
+    </div>
+    <div class="services" id="services">
+      <h1>Our Services</h1>
+      <div class="services-wrapper">
+        <div class="services-card">
+          <h2>Graphic Designs</h2>
+          <p>Color Psychology</p>
+          <div class="services-button">
+            <button>Get Started</button>
+          </div>
+        </div>
+        <div class="services-card">
+          <h2>Branding</h2>
+          <p>Brand Identity</p>
+          <div class="services-button">
+            <button>Get Started</button>
+          </div>
+        </div>
+        <div class="services-card">
+          <h2>Custom Designs</h2>
+          <p>Unique Visuals</p>
+          <div class="services-button">
+            <button>Get Started</button>
+          </div>
+        </div>
+        <div class="services-card">
+          <h2>UX/UI Design</h2>
+          <p>Practical and Effective</p>
+          <div class="services-button">
+            <button>Get Started</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main" id="sign-up">
+      <div class="main-container">
+        <div class="main-content">
+          <h1>Portfolio</h1>
+          <h2>Explore My Work</h2>
+          <p>See What Makes Me Differnet</p>
+          <button class="main-botton"><a href="#">Explore</a></button>
+        </div>
+        <div class="main-img-container">
+          <div id="card-2">
+            <img src="./assets/be.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-container">
+      <div class="footer-links">
+        <div class="footer-link-wrapper">
+          <div class="footer-link-items">
+            <h2>About Us</h2>
+            <a href="/">How It Works</a>
+            <a href="/">Testimonials</a>
+            <a href="/">Careers</a>
+            <a href="/">Terms Of Service</a>
+          </div>
+          <div class="footer-link-items">
+            <h2>Contact Us</h2>
+            <a href="/">Contact</a>
+            <a href="/">Support</a>
+            <a href="/">Destinations</a>
+          </div>
+        </div>
+        <div class="footer-link-wrapper">
+          <div class="footer-link-items">
+            <h2>Videos</h2>
+            <a href="/">Submit Question</a>
+            <a href="/">Ambassadors</a>
+            <a href="/">Agency</a>
+          </div>
+          <div class="footer-link-items">
+            <h2>Social Media</h2>
+            <a href="/">Instagram</a>
+            <a href="/">facebook</a>
+            <a href="/">Youtube</a>
+            <a href="/">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <section class="social-media">
+        <div class="social-media-wrap">
+          <div class="footer-logo">
+            <a href="/" id="footer-logo">Design</a>
+          </div>
+          <p class="website-rights">Design 2024. All rights reserved</p>
+          <div class="social-icons">
+            <a href="/" class="social-icon-links" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="/" class="social-icon-links" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="/" class="social-icon-links" target="_blank">
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a href="/" class="social-icon-links" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="/" class="social-icon-links" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
